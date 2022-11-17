@@ -1,0 +1,665 @@
+/* HOME PAGE (index.html) */ 
+*
+	{
+		margin: 0; 
+		padding:0;
+		box-sizing: border-box; 
+		
+	}
+	
+	div#top{
+	color: blue;
+	}
+
+	h3 {
+		font-weight: 800; 
+		font-family: Source sans pro;
+		color:white;
+		font-size: 20px;
+		padding: 10px 30px 20px;
+		float: left;
+		display: inline-block;
+		}
+	a {
+		font-weight: 800; 
+		font-family: Source sans pro;
+		color:white;
+		font-size: 25px;
+		margin-top: 10px;
+		float: left;
+		display: inline-block;
+		text-decoration: none;
+		}
+		
+	h1 {
+		font-family: Lora;
+		font-style: bold;
+		font-size: 40px; 
+		color: #2F6AB8; 
+		text-align: center;
+		}
+	p {
+	font-family: source sans pro;
+	font-size: 25px ;
+	font-weight: 900; 
+	padding: 10px 20px 10px;
+	line-height: 1.5;
+	}
+	
+	div.header-content-index{
+	background-color: #94B49F;
+	padding: 10px 20px;
+	height: 80px;
+	width: 1750px;
+	}
+	
+	a.buttons-index{
+	font-weight: 800; 
+	font-family: Source sans pro;
+	color:white;
+	font-size: 20px;
+	padding: 10px 20px 10px;
+	float: right;
+	text-decoration: none;
+	display: inline-block;
+	background-color: #94B49F;
+	}
+	
+	a.buttons-index:hover, a:active {
+	background-color: #4CACBC;
+	color: #FFFF;
+	text-decoration: none; 
+	border-radius: 40px;
+	}
+	
+	div.sidebar-index {
+	height: 300px; 
+	width: 150px; 
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	padding-top: 40px; 
+	background-color: #76BA99;
+	}
+	
+	div.picture {
+	position: relative;
+	text-align: center;
+	color: white;
+	}
+	
+	h1#title {
+	font-family: Lora;
+	font-style: bold;
+	font-size: 50px; 
+	color: white; 
+	position: absolute;
+	top: 50%;
+	left: 50%; 
+	transform: translate(-50%, -50%);
+	}
+	
+	h3#subtitle{
+	font-family: Source sans pro;
+	color:white;
+	font-size: 25px;
+	position: absolute;
+	top: 64%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	}
+	
+	div.profiling-content {
+	background-color: #FFFFF;
+	padding: 10px 20px;
+	height: 50px;
+	margin-top: 50px;
+	}
+
+	h2.profiling-text {
+	font-family: source sans pro; 
+	color: #865439;
+	font-size: 30px;
+	font-weight: 900;
+	}
+	
+	div.qoute {
+	background-color: #4CACBC; 
+	width: 1920; 
+	height: 220; 
+	margin-top: 500px;
+	}
+	
+	h3.qoute {
+	font-weight: 800; 
+		font-family: Source sans pro;
+		color:white;
+		font-size: 25px;
+		padding: 10px 30px 20px;
+		display: inline-block;
+		text-align: center; 
+	}
+	
+	h3.problem {
+		font-weight: 900; 
+		font-family: lora;
+		color: black;
+		font-size: 30px;
+		}
+	
+	div.problem-content{
+	padding: 40px 20px;
+	height: 350px;
+	
+	}
+	
+	div.problem-content1{
+	float: left;	
+	height: 200px; 
+	width: 820px; 
+	margin-left: 80px;
+	margin-top: 65px; 
+	}
+	
+	div.problem-content2{
+	float: right;
+	height: 200px; 
+	width: 820px; 
+	margin-right: 80px;
+	margin-top: 65px; 
+	}
+	
+	h3.solution {
+		font-weight: 900; 
+		font-family: lora;
+		color: black;
+		font-size: 30px;
+		}
+	
+	div.solution-content{
+	padding: 40px 20px;
+	height: 390px;
+	
+	}
+	
+	div.solution-content1{
+	float: left;
+	height: 200px; 
+	width: 820px; 
+	margin-left: 80px;
+	margin-top: 65px; 
+	}
+	
+	div.solution-content2{
+	float: right;
+	height: 200px; 
+	width: 820px; 
+	margin-right: 80px;
+	margin-top: 65px; 
+	}
+	
+/*BACKGROUND AND SIGNIFICANCE (background.html) */ 
+
+	div.header-content-background{
+	background-color: #2F6AB8;
+	padding: 10px 20px;
+	height: 80px;
+	width: 1750px;
+	}
+	
+	a.buttons-background{
+	font-weight: 800; 
+	font-family: Source sans pro;
+	color:white;
+	font-size: 20px;
+	padding: 10px 20px 10px;
+	float: right;
+	text-decoration: none;
+	display: inline-block;
+	background-color: #2F6AB8;
+	}
+	
+	a.buttons-background:hover, a:active {
+	background-color: #4CACBC;
+	color: #FFFF;
+	text-decoration: none; 
+	border-radius: 40px;
+	}
+	
+	div.sidebar-background {
+	height: 300px; 
+	width: 150px; 
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	padding-top: 40px; 
+	background-color: #056CCB;
+	}
+	
+	h1.background {
+	font-family: Lora;
+	font-style: bold;
+	font-size: 40px; 
+	color: #2F6AB8; 
+	padding: 10px 20px 10px;
+	}
+	
+	h2.background {
+	font-family: Lora;
+	font-style: bold;
+	font-size: 30px; 
+	color: black; 
+	padding: 10px 20px 10px;
+	}
+	
+	div.background-1{ 
+	width: 530px; 
+	height: 475px; 
+	margin: 40px 25px 20px 25px;
+	float: left;
+	}
+
+	div.background-2 { 
+	width: 1270px; 
+	height: 475px; 
+	margin: 40px 15px 20px 30px;
+	float: right;
+	}
+	
+	div.background-3 { 
+	width: 1250px; 
+	height: 760px; 
+	margin: 10px 20px 20px 25px;
+	float: left;
+	}
+	
+	div.background-4 { 
+	width: 540px; 
+	height: 760px; 
+	margin: 10px 20px 20px 30px;
+	float: right;
+	}
+	div.background-5 { 
+	width: 899px; 
+	height: 675px; 
+	margin: 30px 20px 20px 5px;
+	float: right;
+	}
+	div.background-6 {
+	width: 899px; 
+	height: 675px; 
+	margin: 30px 20px 20px 25px;
+	float: left;
+	}
+	
+	div.significance-1 {
+	width: 1110px; 
+	height: 600px; 
+	margin: 30px 20px 20px 25px;
+	float: left;
+	}
+	
+	ol {
+	font-family: source sans pro;
+	font-size: 25px ;
+	font-weight: 900; 
+	padding: 10px 50px 10px;
+	line-height: 1.5;
+	}
+	
+	div.significance-2 {
+	width: 700px; 
+	height: 600px; 
+	margin: 30px 20px 20px 20px;
+	float: left;
+	}
+	
+	div.question-1 {
+	width: 580px; 
+	height: 380px; 
+	margin: 20px 25px 20px 25px;
+	float: left;
+	}
+	
+	div.question-2 {
+	width: 580px; 
+	height: 380px; 
+	margin: 20px 25px 20px 25px;
+	float: left;
+	}
+	
+	div.question-3 {
+	width: 580px; 
+	height: 380px; 
+	margin: 20px 25px 20px 25px;
+	float: right;
+	}
+	
+	/* SIP (sip.html) */ 
+	
+	div.header-content-sip{
+	background-color: #C68B59;
+	padding: 10px 20px;
+	height: 80px;
+	width: 1750px;
+	}
+	
+	a.buttons-sip{
+	font-weight: 800; 
+	font-family: Source sans pro;
+	color:white;
+	font-size: 20px;
+	padding: 10px 20px 10px;
+	float: right;
+	text-decoration: none;
+	display: inline-block;
+	background-color: #C68B59;
+	}
+	
+	a.buttons-sip:hover, a:active {
+	background-color: #4CACBC;
+	color: #FFFF;
+	text-decoration: none; 
+	border-radius: 40px;
+	}
+	
+	div.sidebar-sip {
+	height: 300px; 
+	width: 150px; 
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	padding-top: 40px; 
+	background-color: #CA955C;
+	}
+	
+	h3.sip {
+	font-weight: 900; 
+	font-family: lora;
+	color:#2F6AB8;
+	font-size: 25px;
+	padding-top: 10px; 
+	padding-right: 40px;
+	padding-left: 5px;
+	}
+	
+	h4.sip {
+	font-weight: 900; 
+	font-family: Source Sans Pro;
+	color:  black;
+	font-size: 25px;
+	padding-top: 10px; 
+	padding-right: 40px;
+	padding-left: 5px;
+	}
+	
+	p.sip {
+	font-family: source sans pro;
+	font-size: 20px ;
+	font-weight: 900; 
+	padding-left: 10px;
+	}
+	
+	th {
+	background-color: #ca955c;
+	color: white 
+	}
+
+	table, tr, th, td {
+	width: 1850px;
+	padding: 5px 20px 5px 50px;
+	font-size: 20px;
+	text-align: center;
+	}
+
+	div {
+	font-size: 20px;
+	text - align: left;
+	}
+
+	div.title {
+	font-weight: 900; 
+	font-family: lora;
+	color:#2F6AB8;
+	font-size: 25px;
+	padding-top: 10px; 
+	padding-right: 40px;
+	padding-left: 5px;
+	text-align: center;
+	}
+
+	div.box{
+		float:left; 
+		width:900px;
+		height:120px;
+		padding: 20px;
+		font-size: 20px; 
+		margin: 10px 10px 10px 20px;
+	}
+
+	div.box2-2{
+		float:left; 
+		width:600px;
+		height:390px;
+		padding: 20px;
+		font-size: 20px; 
+		margin: 10px 10px 10px 20px;
+	}
+	
+	div.box1-2{
+		float:left; 
+		width:600px;
+		height:390px;
+		padding: 20px;
+		font-size: 20px; 
+		margin: 10px 10px 10px 20px;
+	}
+	
+	div.box4{
+		background-color: #E6D5BE;
+		background-opacity: .5;
+		float:left; 
+		width:600px;
+		height:590px;
+		padding: 20px;
+		font-size: 20px; 
+		margin: 30px 10px 10px 20px;
+	}
+	
+	div#box3{
+		float:right; 
+		width:600px;
+		height:390px;
+		padding: 20px;
+		font-size: 20px; 
+		margin: 10px 15px 10px 20px;
+	}
+	div.treatments-1{
+		float:left; 
+		width:900px;
+		height:350px;
+		padding: 20px;
+		font-size: 20px; 
+		margin: 10px 20px 10px 20px;
+		background-color: #CA955C;
+	}
+	div.treatments-2{
+		float:right; 
+		width:900px;
+		height:350px;
+		padding: 20px;
+		font-size: 20px; 
+		margin:10px 20px 10px 20px;
+		background-color: #E6D5BE;
+	}
+	div.steps{
+		float:left; 
+		background: #f5edd5;
+		width:603px;
+		height:930px;
+		padding: 10px;
+		font-size: 20px; 
+		margin: 10px;
+	}
+	div#problem{
+		float:left; 
+		width:900px;
+		height:120px;
+		padding: 20px;
+		font-size: 20px; 
+		margin: 10px 10px 10px 20px;
+	}
+	div#RRL{
+		float:left; 
+		width:1210px;
+		height:630px;
+		padding: 20px;
+		font-size: 20px; 
+		margin: 10px;
+	}
+	tr:nth-child(even)#Vtable {
+	font-family: source sans pro;
+	font-weight: 800; 
+	width: 1000px;
+	}
+	tr:nth-child(odd)#Vtable {
+	font-family: source sans pro;
+	background-color: #CA955C;
+	font-weight: 800; 
+	width: 1000px;
+	}
+	tr:nth-child(odd).Mtable {
+	background-color: #EDDFB3;
+	font-family: source sans pro;
+	font-weight: 800; 
+	}
+	tr:nth-child(odd).data {
+	background-color: #BAD8B6;
+	background-color: #EDDFB3;
+	font-family: source sans pro;
+	font-weight: 800; 
+	}
+	div:nth-child(even).treatments {
+	background-color: #BAD8B6;
+	background-color: #EDDFB3;
+	font-family: source sans pro;
+	font-weight: 800; 
+	}
+	div:nth-child(odd).treatments {
+	background-color: #C68B59;
+	background-color: #EDDFB3;
+	font-family: source sans pro;
+	font-weight: 800; 
+	}
+	div:nth-child(odd).box2 {
+	background-color: #6CC4A1;
+	background-color: #EDDFB3;
+	font-family: source sans pro;
+	font-weight: 800; 
+	}
+	div:nth-child(even).box2 {
+	background-color: #EDDFB3;
+	background-color: #EDDFB3;
+	font-family: source sans pro;
+	font-weight: 800; 
+	}
+	div:nth-child(even)#box3 {
+	background-color: #94B49F;
+	background-color: #EDDFB3;
+	font-family: source sans pro;
+	font-weight: 800; 
+	}
+	div:nth-child(even).box {
+	background-color: #6CC4A1;
+	background-color: #EDDFB3;
+	font-family: source sans pro;
+	font-weight: 800; 
+	}
+	div:nth-child(even).steps {
+	background-color: #BAD8B6;
+	background-color: #EDDFB3;
+	font-family: source sans pro;
+	font-weight: 800; 
+	}
+	
+	/* MAPEH (mapeh.html) */ 
+	
+	div.header-content-mapeh{
+	background-color: #EDDFB3;
+	padding: 10px 20px;
+	height: 80px;
+	width: 1750px;
+	}
+	
+	a.buttons-mapeh{
+	font-weight: 800; 
+	font-family: Source sans pro;
+	color:white;
+	font-size: 20px;
+	padding: 10px 20px 10px;
+	float: right;
+	text-decoration: none;
+	display: inline-block;
+	background-color: #EDDFB3;
+	}
+	
+	a.buttons-mapeh:hover, a:active {
+	background-color: #4CACBC;
+	color: #FFFF;
+	text-decoration: none; 
+	border-radius: 40px;
+	}
+	
+	div.sidebar-mapeh {
+	height: 300px; 
+	width: 150px; 
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	padding-top: 40px; 
+	background-color: #E6D5BE;
+	}
+	
+	h3.decide {
+	font-weight: 900; 
+	font-size: 25px; 
+	Padding-top: 15px;
+	
+	}
+	
+	div.grid-container { 
+	margin-top: 10px;
+	margin-right: 50px; 
+	padding: 10px 20px 10px;
+	background-color: #EDDFB3; 
+	width: 900px; 
+	height: 200px; 
+	}
+	
+	div.grid-container {
+	width: 1920px; 
+	height: 500px
+	background-color: #BAD8B6; 
+	padding-left: 50px;
+	padding-right: 50px;
+	line-height: 1.7;
+	}
+	
+	h3.decide{
+	font-weight: 800; 
+	font-family: Source sans pro;
+	color:black;
+	font-size: 25px;
+	padding: 10px 30px 20px;
+	float: left;
+	display: inline-block;
+	}
+	
+	
+	
+	
+
+	
+	
+	
+
